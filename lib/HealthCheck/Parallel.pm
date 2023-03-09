@@ -9,7 +9,7 @@ use parent 'HealthCheck';
 use Carp;
 use Parallel::ForkManager;
 
-# ABSTRACT: A HealthCheck that uses parallelization running checks
+# ABSTRACT: A HealthCheck that uses parallelization for running checks
 # VERSION
 
 sub new {
